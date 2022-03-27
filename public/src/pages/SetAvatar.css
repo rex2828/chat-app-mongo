@@ -1,0 +1,45 @@
+.setAvatarContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    width: 100vw;
+
+}
+
+.title-container > h1{
+    color: black;
+}
+
+.avatars {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 40px;
+}
+
+.avatar > img {
+    height: 6rem;
+}
+
+.avatar:hover{
+    cursor: pointer;
+}
+
+.selected {
+    border: 0.4rem solid black;
+    border-radius: 100%;
+}
+
+.submit-btn {
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.loader {
+    max-inline-size: 100%;
+}

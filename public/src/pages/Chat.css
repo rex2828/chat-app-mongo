@@ -1,0 +1,26 @@
+.main-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+}
+
+.chat-container-big {
+    height: 85vh;
+    width: 85vw;
+    background-color: #a6a5a576;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    
+}
+
+@media screen and (max-width: 720px){
+  .chat-container-big {
+    grid-template-columns: 20% 80%;
+    height: 100vh;
+    width: 100vw;
+  }
+}
